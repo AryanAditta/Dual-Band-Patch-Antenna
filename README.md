@@ -38,6 +38,4 @@ These values are simulation results from the project files in this repository.
 
 ## Academic Context
 
-This project forms part of my RF/microwave engineering background alongside my later work in RF/mmWave integrated-circuit design.
-
-[RFIC Academic Profile](https://aryanaditta.github.io/rfic-academic/) · [GitHub Profile](https://github.com/AryanAditta)
+This project forms part of my RF/microwave engineering background and complements later work in integrated-circuit design, physical realization and design automation.
