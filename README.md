@@ -1,31 +1,43 @@
 # Dual-Band Microstrip Patch Antenna
 
-### Design and Simulation of a Dual-Band Microstrip Patch Antenna Resonating at 10 GHz and 21 GHz
+**CST-based design and full-wave simulation of a dual-band microstrip patch antenna near 10 GHz and 21 GHz.**
 
-This project focuses on the design, simulation, and analysis of a **dual-band microstrip patch antenna**, optimized for applications in **satellite communication, 5G networks, and radar systems**. The antenna operates at **10 GHz and 21 GHz**, providing efficient impedance matching and high gain.
+This project explores dual-band microwave antenna design with emphasis on resonance placement, impedance matching and electromagnetic field behavior. The antenna was modeled in **CST Studio Suite** and evaluated using S-parameters, VSWR, radiation characteristics and surface-current distributions.
 
-## Features
-✔️ **Dual-Band Operation** – Supports simultaneous communication at 10 GHz & 21 GHz  
-✔️ **Optimized Impedance Matching** – Return loss (S11) < -10 dB & VSWR < 2  
-✔️ **Directional Radiation Pattern** – High directivity for improved signal strength  
-✔️ **Compact Design** – Lightweight microstrip patch antenna  
+## Design Summary
 
-## Design & Methodology
-- **Substrate:** FR4 with optimized dielectric constant  
-- **Patch Technique:** Slot integration for dual-band resonance  
-- **Simulation Tool:** CST Studio Suite  
-- **Performance Metrics:** Return loss (S11), VSWR, radiation pattern, and surface current analysis  
+- Dual-band response centered near **10 GHz** and **21 GHz**.
+- FR4-based microstrip implementation with slot-assisted dual-band behavior.
+- Full-wave EM simulation in **CST Studio Suite**.
+- Evaluation of return loss, VSWR, radiation behavior and surface-current distribution.
 
-## Simulation Results
-- **Return Loss (S11):** -36.93 dB at 10.42 GHz, -33.83 dB at 21.01 GHz  
-- **VSWR:** 1.097 at 10.46 GHz, 1.082 at 21.07 GHz  
-- **Radiation Efficiency:** -1.784 dB (10 GHz), -1.686 dB (21 GHz)  
-- **Surface Current Analysis:** Higher energy density at resonance frequencies  
+## Selected Simulation Results
 
-## Installation Guide
-To open and run the CST simulation:
-1. Download the **CST Studio Suite** software.
-2. Open `cst_simulations/CST_ProjectFile.cst`.
-3. Run the **S-parameter** and **far-field** analysis.
+- **S11:** −36.93 dB at 10.42 GHz and −33.83 dB at 21.01 GHz.
+- **VSWR:** 1.097 at 10.46 GHz and 1.082 at 21.07 GHz.
+- **Radiation efficiency:** −1.784 dB near 10 GHz and −1.686 dB near 21 GHz.
 
+These values are simulation results from the project files in this repository.
 
+## Repository Contents
+
+- [`Patch Antenna Design.cst`](Patch%20Antenna%20Design.cst) — CST project file.
+- [`Final project report.pdf`](Final%20project%20report.pdf) — written project report.
+- [`Antenna Project Presentation PDF.pdf`](Antenna%20Project%20Presentation%20PDF.pdf) — project presentation.
+
+## Reproducing the Simulation
+
+1. Open `Patch Antenna Design.cst` in CST Studio Suite.
+2. Inspect the antenna geometry, material definitions and port setup.
+3. Run the S-parameter analysis for the frequency-domain response.
+4. Evaluate far-field/radiation behavior and surface-current distributions at the resonant frequencies.
+
+## Technical Focus
+
+`CST Studio Suite` · `EM Simulation` · `S-Parameters` · `VSWR` · `Microstrip Antennas` · `RF/Microwave Design`
+
+## Academic Context
+
+This project forms part of my RF/microwave engineering background alongside my later work in RF/mmWave integrated-circuit design.
+
+[RFIC Academic Profile](https://aryanaditta.github.io/rfic-academic/) · [GitHub Profile](https://github.com/AryanAditta)
